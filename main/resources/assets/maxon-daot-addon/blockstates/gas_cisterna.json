@@ -1,0 +1,7 @@
+{
+  "multipart": [
+    {
+      "apply": { "model": "maxon-daot-addon:block/gas_cisterna" }
+    }
+  ]
+}

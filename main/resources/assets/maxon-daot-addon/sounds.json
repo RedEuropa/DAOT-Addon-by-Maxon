@@ -1,0 +1,57 @@
+{
+  "nape_hit": {
+    "sounds": [
+      "maxon-daot-addon:nape_hit"
+    ]
+  },
+  "nape_death": {
+    "sounds": [
+      "maxon-daot-addon:nape_death"
+    ]
+  },
+  "crit_hit": {
+    "sounds": [
+      "maxon-daot-addon:crit_hit"
+    ]
+  },
+  "shoot": {
+    "sounds": [
+      "maxon-daot-addon:shoot"
+    ]
+  },
+  "full_reload": {
+    "sounds": [
+      "maxon-daot-addon:full_reload"
+    ]
+  },
+  "bolt_reload": {
+    "sounds": [
+      "maxon-daot-addon:bolt_reload"
+    ]
+  },
+  "start_breath": {
+    "sounds": [
+      "maxon-daot-addon:start_breath"
+    ]
+  },
+  "breath": {
+    "sounds": [
+      "maxon-daot-addon:breath"
+    ]
+  },
+  "stop_breath": {
+    "sounds": [
+      "maxon-daot-addon:stop_breath"
+    ]
+  },
+  "berserk": {
+    "sounds": [
+      "maxon-daot-addon:berserk"
+    ]
+  },
+  "whistling": {
+    "sounds": [
+      "maxon-daot-addon:whistling"
+    ]
+  }
+}

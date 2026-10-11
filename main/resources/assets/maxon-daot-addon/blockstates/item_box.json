@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "maxon-daot-addon:block/item_box" }
+  }
+}

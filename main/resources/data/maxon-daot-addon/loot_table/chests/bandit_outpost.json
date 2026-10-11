@@ -1,0 +1,64 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": { "type": "minecraft:uniform", "min": 2.0, "max": 4.0 },
+      "entries": [
+        { "type": "minecraft:item", "weight": 5, "name": "minecraft:emerald", "functions": [
+          { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 3 } }
+        ]},
+        { "type": "minecraft:item", "weight": 4, "name": "minecraft:iron_ingot", "functions": [
+          { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 4 } }
+        ]},
+        { "type": "minecraft:item", "weight": 3, "name": "dannys-aot:ultrahard_steel_ingot", "functions": [
+          { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 2 } }
+        ]},
+        { "type": "minecraft:item", "weight": 4, "name": "dannys-aot:canned_herring", "functions": [
+          { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 3 } }
+        ]},
+        { "type": "minecraft:item", "weight": 3, "name": "dannys-aot:vintage_wine", "functions": [
+          { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 2 } }
+        ]},
+        { "type": "minecraft:item", "weight": 3, "name": "minecraft:bread", "functions": [
+          { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 3 } }
+        ]}
+      ]
+    },
+    {
+      "rolls": { "type": "minecraft:uniform", "min": 1.0, "max": 2.0 },
+      "entries": [
+        { "type": "minecraft:item", "weight": 10, "name": "dannys-aot:gas_canister" },
+        { "type": "minecraft:item", "weight": 5, "name": "dannys-aot:thunder_spear" },
+        { "type": "minecraft:item", "weight": 6, "name": "dannys-aot:ultrahard_leather", "functions": [
+          { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 2 } }
+        ]},
+        { "type": "minecraft:item", "weight": 3, "name": "dannys-aot:odm_wires", "functions": [
+          { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 2 } }
+        ]},
+        { "type": "minecraft:item", "weight": 3, "name": "dannys-aot:odm_spring", "functions": [
+          { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 2 } }
+        ]},
+        { "type": "minecraft:item", "weight": 3, "name": "dannys-aot:odm_cyllinder", "functions": [
+          { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 2 } }
+        ]}
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        { "type": "minecraft:item", "weight": 5, "name": "dannys-aot:blade", "functions": [
+          { "function": "minecraft:set_count", "count": { "type": "minecraft:uniform", "min": 1, "max": 2 } }
+        ]},
+        { "type": "minecraft:empty", "weight": 5 }
+      ]
+    },
+    {
+      "rolls": 1.0,
+      "entries": [
+        { "type": "minecraft:item", "weight": 1, "name": "maxon-daot-addon:marleyan_rifle" },
+        { "type": "minecraft:item", "weight": 1, "name": "maxon-daot-addon:thunder_gun" },
+        { "type": "minecraft:empty", "weight": 10 }
+      ]
+    }
+  ]
+}

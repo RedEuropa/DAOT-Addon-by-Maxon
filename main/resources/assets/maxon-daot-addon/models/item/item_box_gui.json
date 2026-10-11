@@ -1,0 +1,6 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "maxon-daot-addon:item/item_box_icon"
+	}
+}

@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "maxon-daot-addon",
+	"version": "${version}",
+	"name": "maxon-daot-addon",
+	"description": "This addon adding many survival and fun function for DAOT mod",
+	"authors": [
+		"Maxon"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/maxon-daot-addon/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.maxonaddon.MaxonDaotAddon"
+		],
+		"client": [
+			"com.maxonaddon.client.MaxonDaotAddonClient"
+		]
+	},
+	"mixins": [
+		"maxon-daot-addon.mixins.json",
+		{
+			"config": "maxon-daot-addon.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.16.9",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"dannys-aot": "*",
+		"geckolib": ">=4.8.3",
+		"player_animation_library": "*"
+	}
+}

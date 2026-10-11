@@ -1,0 +1,34 @@
+{
+  "required": true,
+  "package": "com.maxonaddon.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "LocalPlayerMixin",
+    "GuiMixin",
+    "GameRendererMixin",
+    "CameraMixin",
+    "InventoryStatsButtonMixin",
+    "LocalPlayerMessageMixin",
+    "DannysAotGripMixin",
+    "GeoModelMixin",
+    "ThunderSpearArmFeatureMixin",
+    "SpearRenderMixin",
+    "InventoryScreenMixin",
+    "GeoArmorRendererMixin",
+    "GlfwKeySpamMixin",
+    "BladeBloodRenderMixin",
+    "CloakBloodRenderMixin",
+    "PerkOdmSpeedMixin",
+    "HookLineRendererMixin",
+    "ODMTickHandlerMixin",
+    "CameraTiltHandlerMixin",
+    "SmugglerGlowMixin",
+    "OdmPhysicsMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
+  }
+}
